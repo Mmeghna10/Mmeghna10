@@ -3,7 +3,28 @@
 <img src="visitingcard.png" alt="GitHub Banner" width="100%" />
 
 # 💫 About Me:
-<br>👋 Hey there! I'm a passionate freelancer who thrives in the world of coding and development 🚀. With expertise across a variety of programming languages like HTML, CSS, JavaScript, Python, Dart, Java, and many more, I bring creative solutions to life through my diverse skill set 💻.<br><br>🌟 I'm also working on building my own company, Cyber Shorr, where innovation meets cutting-edge technology. With a strong vision of shaping the future of the IT sector, Cyber Shorr is set to make waves in the digital world 🌐.<br><br>🤝 I'm lucky to have an amazing team that makes it all possible:<br><br><b>Kanan Singh</b> – The problem-solving wizard ⚡ <be>  [![Kanan](https://img.shields.io/badge/github-%23E4405F.svg?logo=Instagram&logoColor=white)](https://github.com/kanan365)<br><b>Harshit</b> – The design and architecture guru 🎨 <be>  [![Harshit](https://img.shields.io/badge/github-%23E4405F.svg?logo=Instagram&logoColor=white)](https://github.com/moghaeashu)<br><b>Nishant</b> – The coding prodigy 🔥<be>  [![Nishant](https://img.shields.io/badge/github-%23E4405F.svg?logo=Instagram&logoColor=white)](https://github.com/nishant0001000)<br>Together, we work tirelessly to deliver exceptional projects and build solutions that help businesses grow and thrive 📈. We're committed to taking on challenges, building amazing tech products, and continuously evolving in this fast-paced industry.<br><br>If you’re looking to collaborate or want to see some of our awesome work, feel free to check out my repositories below or reach out directly! 😄 Let's make something incredible together. ✨ <br><br><br>
+<br>👋 Hi there! I'm a passionate <b>Full Stack Developer</b> and a <b>BCA graduate from Chaudhary Charan Singh University</b> who enjoys building modern, scalable web applications 🚀. I love solving real-world problems through technology and continuously improving my development skills 💻.<br><br>
+
+💡 I have hands-on experience working with technologies like <b>HTML, CSS, JavaScript, React.js, Next.js, Node.js, Express.js, and MongoDB</b>. I enjoy designing responsive user interfaces and developing efficient backend systems that power modern web applications 🌐.<br><br>
+
+📊 I also work with <b>Python, SQL, and Machine Learning</b> to analyze data and build predictive models. I have developed projects like <b>Sales Prediction Models, Data Analysis Dashboards, and Performance Analytics</b> using tools such as <b>Scikit-learn and Power BI</b> to extract meaningful insights from data 📈.<br><br>
+
+🚀 Some of my notable projects include:<br>
+<b>Portfolio Builder</b> – A dynamic web application with authentication, real-time preview, and theme customization.<br>
+<b>Resume Builder</b> – A full-stack application that allows users to create and manage professional resumes.<br>
+<b>Sales Prediction Model</b> – A machine learning model built using Python and Scikit-learn.<br>
+<b>Data Analysis Projects</b> – Including Hotstar Performance Analysis and Blinkit Sales Analysis using Power BI.<br><br>
+
+🔧 <b>Technical Skills</b><br>
+Languages: HTML, CSS, JavaScript, Python, Java<br>
+Frontend: React.js, Next.js, Tailwind CSS<br>
+Backend: Node.js, Express.js<br>
+Database: MongoDB, SQL<br>
+Tools: GitHub, Power BI, Figma<br><br>
+
+🎯 I am currently seeking opportunities to start my career as a <b>Software Developer / Full Stack Developer</b> where I can contribute to innovative projects, collaborate with talented teams, and continue learning in the fast-evolving tech industry.<br><br>
+
+🤝 Feel free to explore my repositories to see my projects and development work. I'm always excited to learn, collaborate, and build impactful technology solutions! ✨<br><br><br>
 
 
 ## 🌐 Socials:
