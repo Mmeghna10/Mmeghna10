@@ -3,29 +3,22 @@
 <img src="visitingcard.png" alt="GitHub Banner" width="100%" />
 
 # 💫 About Me:
-<br>👋 Hi there! I'm a passionate <b>Full Stack Developer</b> and a <b>BCA graduate from Chaudhary Charan Singh University</b> who enjoys building modern, scalable web applications 🚀. I love solving real-world problems through technology and continuously improving my development skills 💻.<br><br>
+<br>👋 Hi there! I'm a motivated <b>MCA student at Vellore Institute of Technology, Vellore</b> with a strong interest in <b>Full Stack Development and Data Analytics</b> 🚀. I enjoy building modern web applications and working with data to generate meaningful insights that solve real-world problems 💻.<br><br>
 
-💡 I have hands-on experience working with technologies like <b>HTML, CSS, JavaScript, React.js, Next.js, Node.js, Express.js, and MongoDB</b>. I enjoy designing responsive user interfaces and developing efficient backend systems that power modern web applications 🌐.<br><br>
+💡 I am proficient in technologies such as <b>JavaScript, React.js, Next.js, Node.js, Python, SQL, and Power BI</b>. I have hands-on experience in developing scalable web applications and creating data-driven dashboards for analysis and decision making 📊.<br><br>
 
-📊 I also work with <b>Python, SQL, and Machine Learning</b> to analyze data and build predictive models. I have developed projects like <b>Sales Prediction Models, Data Analysis Dashboards, and Performance Analytics</b> using tools such as <b>Scikit-learn and Power BI</b> to extract meaningful insights from data 📈.<br><br>
-
-🚀 Some of my notable projects include:<br>
-<b>Portfolio Builder</b> – A dynamic web application with authentication, real-time preview, and theme customization.<br>
-<b>Resume Builder</b> – A full-stack application that allows users to create and manage professional resumes.<br>
-<b>Sales Prediction Model</b> – A machine learning model built using Python and Scikit-learn.<br>
-<b>Data Analysis Projects</b> – Including Hotstar Performance Analysis and Blinkit Sales Analysis using Power BI.<br><br>
+🚀 I enjoy working on innovative projects that combine development and intelligent systems. Currently, I am working on an <b>AI-based Crowd Risk Prediction research project</b> that uses <b>Computer Vision and Deep Learning</b> to analyze crowd behavior and predict potential risk situations 🤖.<br><br>
 
 🔧 <b>Technical Skills</b><br>
-Languages: HTML, CSS, JavaScript, Python, Java<br>
-Frontend: React.js, Next.js, Tailwind CSS<br>
+Languages: JavaScript, Python, SQL<br>
+Frontend: React.js, Next.js, HTML, CSS<br>
 Backend: Node.js, Express.js<br>
-Database: MongoDB, SQL<br>
-Tools: GitHub, Power BI, Figma<br><br>
+Data & Analytics: Power BI, Data Analysis<br>
+Tools: GitHub, Figma<br><br>
 
-🎯 I am currently seeking opportunities to start my career as a <b>Software Developer / Full Stack Developer</b> where I can contribute to innovative projects, collaborate with talented teams, and continue learning in the fast-evolving tech industry.<br><br>
+🎯 I am actively seeking opportunities to apply my technical knowledge, gain industry experience, and contribute to building innovative technology solutions in a collaborative environment.<br><br>
 
-🤝 Feel free to explore my repositories to see my projects and development work. I'm always excited to learn, collaborate, and build impactful technology solutions! ✨<br><br><br>
-
+🤝 Feel free to explore my repositories to see my projects and work. I'm always excited to learn, build, and collaborate on impactful technology solutions! ✨<br><br><br>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mmeghu10_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/meghnarajput10) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Mmeghu10) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rajputmeghna101@gmail.com) <br><br><br>
