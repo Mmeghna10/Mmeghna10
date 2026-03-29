@@ -1,6 +1,6 @@
 # Hello World!, I'm Meghna, an Indian Developer 👋🏼:
 
-<img src="visitingcard.png" alt="GitHub Banner" width="100%" />
+<!-- <img src="visitingcard.png" alt="GitHub Banner" width="100%" /> -->
 
 # 💫 About Me:
 <br>👋 Hi there! I'm a motivated <b>MCA student at Vellore Institute of Technology, Vellore</b> with a strong interest in <b>Full Stack Development and Data Analytics</b> 🚀. I enjoy building modern web applications and working with data to generate meaningful insights that solve real-world problems 💻.<br><br>
