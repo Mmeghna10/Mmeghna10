@@ -1,103 +1,161 @@
-# Meghna
+ <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0B1220&height=180&section=header&text=MEGHNA&fontSize=58&fontColor=E2E8F0&fontAlignY=42&desc=SOFTWARE%20DEVELOPER%20%7C%20MCA%20%40%20VIT&descAlignY=68&descSize=15&animation=fadeIn" width="100%" alt="Meghna - Software Developer" />
+</p>
 
-**MCA Student at VIT, Vellore | Software Developer | Full-Stack Development | AI/ML**
+<h3 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=4000&pause=1500&color=60A5FA&center=true&vCenter=true&width=650&lines=Full-Stack+Development+%7C+Backend+Engineering;Java+%7C+Data+Structures+%26+Algorithms;Artificial+Intelligence+%7C+Machine+Learning;Building+Practical+Software+Solutions" alt="Professional developer tagline" />
+</h3>
 
-I am a postgraduate Computer Applications student interested in software engineering, backend development, and building practical technology solutions.
-
-I enjoy developing full-stack applications, designing backend systems, solving algorithmic problems, and exploring the intersection of software development and artificial intelligence.
-
-My focus is on writing clean, maintainable code and continuously strengthening my problem-solving and engineering skills.
+<p align="center">
+  <a href="https://github.com/Mmeghna10">
+    <img src="https://img.shields.io/badge/GitHub-Mmeghna10-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/meghnarajput10/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-1E293B?style=flat-square&logo=linkedin&logoColor=60A5FA" alt="LinkedIn" />
+  </a>
+</p>
 
 ---
 
 ## About Me
 
-- Pursuing Master of Computer Applications (MCA) at VIT, Vellore.
-- Interested in Full-Stack Development and Backend Engineering.
-- Practicing Data Structures and Algorithms using Java.
-- Exploring System Design, REST APIs, Database Management, and Cloud Technologies.
-- Interested in Artificial Intelligence, Machine Learning, and Computer Vision.
-- Actively preparing for software development internships and placement opportunities.
+I'm **Meghna**, a Master of Computer Applications (MCA) student at **Vellore Institute of Technology, Vellore**, passionate about software development, backend engineering, and intelligent applications.
+
+I enjoy transforming ideas into practical applications, exploring scalable backend architectures, and solving complex programming problems.
+
+- 🎓 MCA Student at VIT, Vellore.
+- 💻 Interested in Full-Stack Development and Backend Engineering.
+- ☕ Solving Data Structures and Algorithms problems using Java.
+- 🏗️ Exploring System Design, REST APIs, and Database Management.
+- 🤖 Interested in AI, Machine Learning, and Computer Vision.
+- 🚀 Focused on building impactful projects and growing as a software engineer.
 
 ---
 
-## Technical Skills
+## Technical Expertise
 
-| Category | Technologies |
-|---|---|
-| Programming Languages | Java, Python, JavaScript, SQL |
-| Frontend Development | React.js, HTML5, CSS3, Tailwind CSS, Vite |
-| Backend Development | Node.js, Express.js, REST APIs |
-| Databases | MongoDB, MySQL, Redis |
-| Tools & Platforms | Git, GitHub, Docker, Postman, VS Code |
-| Core Concepts | Data Structures & Algorithms, OOP, DBMS, Authentication, API Development |
-| Currently Exploring | Spring Boot, System Design, AI/ML, Cloud Computing |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Programming Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,python,js&theme=dark" alt="Programming languages" />
+</p>
+
+### Frontend Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,vite,html,css,tailwind&theme=dark" alt="Frontend technologies" />
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### Backend Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,spring&theme=dark" alt="Backend technologies" />
+</p>
+
+### Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,redis&theme=dark" alt="Database technologies" />
+</p>
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### Tools & Platforms
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,postman,azure,linux,vscode&theme=dark" alt="Developer tools" />
+</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Featured Projects
+## Selected Projects
 
-### 1. CareerScript
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>01. CareerScript</h3>
+
 **Full-Stack Resume Builder**
 
-A web application focused on simplifying resume creation through customizable templates and an interactive resume-building experience.
+A web-based application designed to simplify resume creation with customizable templates and an interactive editing experience.
 
-**Technical Stack:** React.js, Node.js, Express.js, MongoDB, Redis, JWT
+**Technologies**
 
-- User authentication and protected routes.
-- Backend API development.
-- Resume management and file-handling workflows.
-- Integration of database and caching technologies.
+`React` `Node.js` `Express` `MongoDB` `Redis` `JWT`
 
-Repository: [CareerScript](https://github.com/Mmeghna10/CareerScript)
+[↗ View Source Code](https://github.com/Mmeghna10/CareerScript)
 
-### 2. Neopark
-**Parking Management Application**
+</td>
+<td width="50%" valign="top">
 
-A software project exploring parking management workflows and backend application architecture.
+<h3>02. Neopark</h3>
 
-**Technical Stack:** JavaScript, Node.js, MongoDB, Redis, Docker, Socket.IO
+**Parking Management System**
 
-- Backend service development.
-- Real-time communication.
-- Database integration.
-- Containerization and application architecture.
+An application exploring parking management workflows, backend development, and real-time communication.
 
-Repository: [Neopark](https://github.com/Mmeghna10/Neopark)
+**Technologies**
 
-### 3. TravelByChance
+`JavaScript` `Node.js` `MongoDB` `Redis` `Docker`
+
+[↗ View Source Code](https://github.com/Mmeghna10/Neopark)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>03. TravelByChance</h3>
+
 **Travel & Accommodation Platform**
 
-A web application focused on travel discovery and accommodation management.
+A travel-oriented application focused on accommodation discovery, listing management, bookings, and user interactions.
 
-**Technical Stack:** JavaScript, Node.js, Express.js, MongoDB
+**Technologies**
 
-- User authentication and authorization.
-- Travel listings and management.
-- Booking and review workflows.
-- Backend API integration.
+`JavaScript` `Node.js` `Express` `MongoDB`
 
-Repository: [TravelByChance](https://github.com/Mmeghna10/travel-by-chance)
+[↗ View Source Code](https://github.com/Mmeghna10/travel-by-chance)
 
-### 4. PlacementHub
+</td>
+<td width="50%" valign="top">
+
+<h3>04. PlacementHub</h3>
+
 **Placement Management System**
 
-A project focused on developing a centralized platform for placement-related activities.
+A project exploring a centralized placement platform with modern backend architecture and database integration.
 
-**Technical Stack:** Java, Spring Boot, Spring Security, MySQL, React.js
+**Technologies**
 
-- Exploring secure authentication and authorization.
-- Database management and REST API development.
-- Full-stack application architecture.
+`Java` `Spring Boot` `Spring Security` `MySQL` `React`
 
-Repository: [PlacementHub](https://github.com/Mmeghna10/placementhub)
+[↗ View Source Code](https://github.com/Mmeghna10/placementhub)
 
-### 5. Meeting Summarizer
-**AI-Powered Meeting Assistance**
+</td>
+</tr>
+</table>
 
-A project focused on making meeting information easier to organize, process, and review.
+### Other Work
 
-Repository: [Meeting Summarizer](https://github.com/Mmeghna10/meeting-summarizer)
+**Meeting Summarizer** — Exploring AI-powered workflows for organizing and summarizing meeting information.
+
+[Explore Repository](https://github.com/Mmeghna10/meeting-summarizer)
 
 ---
 
@@ -107,37 +165,52 @@ Repository: [Meeting Summarizer](https://github.com/Mmeghna10/meeting-summarizer
 - Computer Vision
 - Federated Learning and Differential Privacy
 - Backend Engineering and System Design
-- Scalable Web Applications
+- Scalable and Secure Web Applications
 
 ---
 
 ## Problem Solving
 
-Currently strengthening my algorithmic problem-solving skills through consistent practice.
+Consistently working on improving algorithmic thinking and problem-solving skills through Data Structures and Algorithms.
 
-- Data Structures and Algorithms using Java.
-- Arrays, Strings, Hashing, Sliding Window.
-- Linked Lists, Stacks, Queues.
-- Trees, Graphs, and Dynamic Programming.
-- Time and Space Complexity Analysis.
+| Topics | Focus |
+|---|---|
+| Arrays & Strings | Prefix Sum, Sliding Window, Hashing |
+| Linked Lists | Traversal, Reversal, Two Pointers |
+| Trees | DFS, BFS, Tree Recursion |
+| Graphs | Traversal and Graph Algorithms |
+| Dynamic Programming | Optimization and State Transitions |
 
----
-
-## Education
-
-**Master of Computer Applications (MCA)**  
-Vellore Institute of Technology (VIT), Vellore
-
-**Bachelor of Computer Applications (BCA)**  
-IMS Noida
+**Primary Language:** Java
 
 ---
 
-## Connect
+## GitHub Analytics
 
-- GitHub: [Mmeghna10](https://github.com/Mmeghna10)
-- LinkedIn: [Meghna Rajput](https://www.linkedin.com/in/meghnarajput10/)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mmeghna10&show_icons=true&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=CBD5E1&icon_color=38BDF8&rank_icon=github" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mmeghna10&layout=compact&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=CBD5E1&langs_count=6" alt="Most used languages" />
+</p>
 
 ---
 
-*Focused on continuous learning, thoughtful engineering, and building software that solves real-world problems.*
+## Connect With Me
+
+<p>
+<a href="https://github.com/Mmeghna10">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://www.linkedin.com/in/meghnarajput10/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+</p>
+
+---
+
+<p align="center">
+  <sub>Continuous Learning · Thoughtful Engineering · Real-World Impact</sub>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=0:0B1220,50:2563EB,100:0B1220&section=footer" width="100%" alt="" />
+</p>
