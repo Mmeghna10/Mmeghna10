@@ -31,15 +31,15 @@
     <style>
       text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
       .mono { font-family: 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
-      .in { opacity: 0; animation: in .8s ease-out forwards; }
-      @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      .in { animation: in .8s ease-out; }
+      @keyframes in { from { opacity: 0; transform: translateY(8px); } }
       .spin { transform-origin: 210px 160px; animation: spin 18s linear infinite; }
       @keyframes spin { to { transform: rotate(360deg); } }
       .pulse { animation: pulse 2s ease-in-out infinite; }
       @keyframes pulse { 50% { opacity: .45; } }
       .caret { animation: blink 1s step-end infinite; }
       @keyframes blink { 50% { opacity: 0; } }
-      @media (prefers-reduced-motion: reduce) { .in, .spin, .pulse, .caret { animation: none; opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .in, .spin, .pulse, .caret { animation: none; } }
     </style>
   </defs>
 

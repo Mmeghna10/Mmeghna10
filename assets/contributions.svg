@@ -6,10 +6,10 @@
   .label { font-size: 14px; fill: #94A3B8; }
   .value { font-size: 14px; font-weight: 700; fill: #E2E8F0; }
   .small { font-size: 11px; fill: #94A3B8; }
-  .fade { opacity: 0; animation: fade .6s ease-out forwards; }
-  @keyframes fade { to { opacity: 1; } }
+  .fade { animation: fade .6s ease-out; }
+  @keyframes fade { from { opacity: 0; } }
   @keyframes grow { from { stroke-dashoffset: var(--len); } }
-  @media (prefers-reduced-motion: reduce) { .fade { animation: none; opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
 </style>
 <rect x="0.5" y="0.5" width="806" height="223" rx="12" fill="#0B1220" stroke="#1E293B"/>
 <text x="25" y="38" class="title">Contribution Activity</text>

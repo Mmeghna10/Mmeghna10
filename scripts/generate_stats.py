@@ -177,10 +177,10 @@ def frame(width: int, height: int, title: str, body: str, label: str) -> str:
   .label {{ font-size: 14px; fill: {MUTED}; }}
   .value {{ font-size: 14px; font-weight: 700; fill: {TEXT}; }}
   .small {{ font-size: 11px; fill: {MUTED}; }}
-  .fade {{ opacity: 0; animation: fade .6s ease-out forwards; }}
-  @keyframes fade {{ to {{ opacity: 1; }} }}
+  .fade {{ animation: fade .6s ease-out; }}
+  @keyframes fade {{ from {{ opacity: 0; }} }}
   @keyframes grow {{ from {{ stroke-dashoffset: var(--len); }} }}
-  @media (prefers-reduced-motion: reduce) {{ .fade {{ animation: none; opacity: 1; }} }}
+  @media (prefers-reduced-motion: reduce) {{ .fade {{ animation: none; }} }}
 </style>
 <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="{BG}" stroke="{BORDER}"/>
 <text x="25" y="38" class="title">{esc(title)}</text>
@@ -318,14 +318,130 @@ def contributions_card(d: dict) -> str:
     return frame(width, height, "Contribution Activity", "\n".join(body), "Contribution activity in the last year")
 
 
+# --------------------------------------------------------------------------- leetcode
+
+LEETCODE_USERNAME = os.environ.get("LEETCODE_USERNAME", "Mmeghna10")
+LC_COLORS = {"Easy": "#1CBBBA", "Medium": "#FFB700", "Hard": "#F63737"}
+
+LEETCODE_QUERY = """
+query($u: String!) {
+  allQuestionsCount { difficulty count }
+  matchedUser(username: $u) {
+    submitStatsGlobal { acSubmissionNum { difficulty count } }
+    badges { displayName }
+    languageProblemCount { languageName problemsSolved }
+    userCalendar { streak totalActiveDays }
+  }
+  userContestRanking(username: $u) { attendedContestsCount rating topPercentage }
+}
+"""
+
+
+def collect_leetcode() -> dict | None:
+    """Public LeetCode data. Returns None (and keeps the old card) if LeetCode is unreachable."""
+    try:
+        req = urllib.request.Request(
+            "https://leetcode.com/graphql",
+            data=json.dumps({"query": LEETCODE_QUERY, "variables": {"u": LEETCODE_USERNAME}}).encode(),
+            headers={
+                "Content-Type": "application/json",
+                "Referer": f"https://leetcode.com/u/{LEETCODE_USERNAME}/",
+                "User-Agent": "Mozilla/5.0 (profile-stats-generator)",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.load(resp)["data"]
+        user = data["matchedUser"]
+        if not user:
+            raise ValueError(f"LeetCode user {LEETCODE_USERNAME!r} not found")
+    except Exception as exc:  # network blocks, schema changes, rate limits
+        print(f"warning: skipped LeetCode card ({exc})")
+        return None
+    solved = {r["difficulty"]: r["count"] for r in user["submitStatsGlobal"]["acSubmissionNum"]}
+    totals = {r["difficulty"]: r["count"] for r in data["allQuestionsCount"]}
+    langs = sorted(user["languageProblemCount"], key=lambda l: l["problemsSolved"], reverse=True)
+    return {
+        "solved": solved,
+        "totals": totals,
+        "badges": len(user["badges"]),
+        "streak": user["userCalendar"]["streak"],
+        "active_days": user["userCalendar"]["totalActiveDays"],
+        "language": langs[0] if langs else None,
+        "contest": data["userContestRanking"],
+    }
+
+
+def leetcode_card(d: dict) -> str:
+    width, height = 760, 200
+    total = d["solved"].get("All", 0)
+    body = []
+    # ring split by difficulty mix
+    r, cx, cy = 54, 100, 118
+    circ = 2 * 3.14159 * r
+    body.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{BORDER}" stroke-width="9"/>')
+    offset = 0.0
+    for i, level in enumerate(("Easy", "Medium", "Hard")):
+        part = circ * d["solved"].get(level, 0) / (total or 1)
+        if part <= 0:
+            continue
+        body.append(
+            f'<circle class="fade" style="animation-delay:{200 + i * 150}ms" cx="{cx}" cy="{cy}" r="{r}" fill="none" '
+            f'stroke="{LC_COLORS[level]}" stroke-width="9" stroke-dasharray="{max(part - 3, 0.1):.1f} {circ:.1f}" '
+            f'stroke-dashoffset="{-offset:.1f}" transform="rotate(-90 {cx} {cy})"/>'
+        )
+        offset += part
+    body.append(
+        f'<text x="{cx}" y="{cy + 4}" text-anchor="middle" style="font-size:30px;font-weight:700;fill:{TEXT}">{total}</text>'
+        f'<text x="{cx}" y="{cy + 24}" text-anchor="middle" class="small">solved</text>'
+    )
+    # difficulty bars
+    top_count = max([d["solved"].get(l, 0) for l in LC_COLORS] + [1])
+    for i, (level, color) in enumerate(LC_COLORS.items()):
+        y = 82 + i * 38
+        n, t = d["solved"].get(level, 0), d["totals"].get(level, 0)
+        w = 200 * n / top_count
+        body.append(
+            f'<g class="fade" style="animation-delay:{150 + i * 120}ms" transform="translate(190,{y})">'
+            f'<text x="0" y="0" class="label" style="fill:{color};font-weight:600">{level}</text>'
+            f'<text x="200" y="0" class="value" text-anchor="end">{n}<tspan class="small"> / {t}</tspan></text>'
+            f'<rect x="0" y="8" width="200" height="6" rx="3" fill="{BORDER}"/>'
+            f'<rect x="0" y="8" width="{w:.1f}" height="6" rx="3" fill="{color}"/></g>'
+        )
+    # side facts
+    facts = []
+    if d["contest"] and d["contest"].get("attendedContestsCount"):
+        c = d["contest"]
+        facts.append(("Contest rating", f'{round(c["rating"])}  (top {c["topPercentage"]:.1f}%)'))
+    if d["language"]:
+        facts.append(("Main language", f'{d["language"]["languageName"]} · {d["language"]["problemsSolved"]}'))
+    facts += [
+        ("Max streak", f'{d["streak"]} days'),
+        ("Active days", str(d["active_days"])),
+        ("Badges", str(d["badges"])),
+    ]
+    for i, (label, value) in enumerate(facts[:4]):
+        y = 82 + i * 30
+        body.append(
+            f'<g class="fade" style="animation-delay:{300 + i * 120}ms" transform="translate(460,{y})">'
+            f'<text x="0" y="0" class="label">{esc(label)}</text>'
+            f'<text x="275" y="0" class="value" text-anchor="end">{esc(value)}</text></g>'
+        )
+    body.append(f'<line x1="430" y1="62" x2="430" y2="178" stroke="{BORDER}"/>')
+    return frame(width, height, f"LeetCode · {LEETCODE_USERNAME}", "\n".join(body), "LeetCode stats")
+
+
 def main() -> None:
     data = collect()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for name, svg in (
+    cards = [
         ("stats.svg", stats_card(data)),
         ("languages.svg", languages_card(data)),
         ("contributions.svg", contributions_card(data)),
-    ):
+    ]
+    lc = collect_leetcode()
+    if lc:
+        cards.append(("leetcode.svg", leetcode_card(lc)))
+    for name, svg in cards:
         (OUT_DIR / name).write_text(svg, encoding="utf-8")
         print(f"wrote assets/{name}")
 

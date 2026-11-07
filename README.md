@@ -111,7 +111,7 @@ Discover stays, manage listings and handle bookings and reviews, with a REST bac
 <tr>
 <td width="50%" valign="top">
 
-**DSA in Java** — practising daily across
+**DSA in Java** — practising daily on [LeetCode](https://leetcode.com/u/Mmeghna10/)
 
 - Arrays & Strings · Sliding Window · Hashing
 - Linked Lists · Two Pointers
@@ -132,11 +132,9 @@ Discover stays, manage listings and handle bookings and reviews, with a REST bac
 </tr>
 </table>
 
-<!-- Optional: add your LeetCode card (replace YOUR_LEETCODE_USERNAME)
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=JetBrains%20Mono&ext=heatmap" alt="LeetCode stats" />
+  <a href="https://leetcode.com/u/Mmeghna10/"><img src="assets/leetcode.svg" width="100%" alt="LeetCode stats for Mmeghna10" /></a>
 </p>
--->
 
 ---
 
