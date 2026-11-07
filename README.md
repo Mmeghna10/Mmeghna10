@@ -185,14 +185,22 @@ Consistently working on improving algorithmic thinking and problem-solving skill
 
 ---
 
+
 ## GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mmeghna10&show_icons=true&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=CBD5E1&icon_color=38BDF8&rank_icon=github" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mmeghna10&layout=compact&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=CBD5E1&langs_count=6" alt="Most used languages" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Mmeghna10&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"
+    height="170"
+    alt="GitHub Stats"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mmeghna10&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"
+    height="170"
+    alt="Top Languages"
+  />
 </p>
 
----
 
 ## Connect With Me
 
