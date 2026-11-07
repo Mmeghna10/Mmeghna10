@@ -1,224 +1,170 @@
- <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0B1220&height=180&section=header&text=MEGHNA&fontSize=58&fontColor=E2E8F0&fontAlignY=42&desc=SOFTWARE%20DEVELOPER%20%7C%20MCA%20%40%20VIT&descAlignY=68&descSize=15&animation=fadeIn" width="100%" alt="Meghna - Software Developer" />
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Meghna Rajput – Backend & Full-Stack Developer, MCA @ VIT Vellore" />
 </p>
-
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=4000&pause=1500&color=60A5FA&center=true&vCenter=true&width=650&lines=Full-Stack+Development+%7C+Backend+Engineering;Java+%7C+Data+Structures+%26+Algorithms;Artificial+Intelligence+%7C+Machine+Learning;Building+Practical+Software+Solutions" alt="Professional developer tagline" />
-</h3>
 
 <p align="center">
-  <a href="https://github.com/Mmeghna10">
-    <img src="https://img.shields.io/badge/GitHub-Mmeghna10-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/meghnarajput10/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-1E293B?style=flat-square&logo=linkedin&logoColor=60A5FA" alt="LinkedIn" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3500&pause=1200&color=60A5FA&center=true&vCenter=true&width=680&lines=I+build+reliable+backends+and+clean+full-stack+apps;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+Node.js+%E2%80%A2+React;Solving+DSA+problems+daily+in+Java" alt="Typing tagline" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/meghnarajput10/"><img src="https://img.shields.io/badge/LinkedIn-meghnarajput10-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rajputmeghna9@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-1E293B?style=for-the-badge&logo=gmail&logoColor=60A5FA" alt="Email" /></a>
+  <a href="https://career-script.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-CareerScript-1E293B?style=for-the-badge&logo=vercel&logoColor=white" alt="CareerScript live demo" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Mmeghna10&style=for-the-badge&color=2563EB&label=Profile%20Views" alt="Profile views" />
 </p>
 
 ---
 
-## About Me
+## 👩‍💻 About Me
 
-I'm **Meghna**, a Master of Computer Applications (MCA) student at **Vellore Institute of Technology, Vellore**, passionate about software development, backend engineering, and intelligent applications.
+I'm an **MCA student at Vellore Institute of Technology** who likes the part of software most people never see — APIs, data models, caching, auth, and the plumbing that keeps data consistent.
 
-I enjoy transforming ideas into practical applications, exploring scalable backend architectures, and solving complex programming problems.
-
-- 🎓 MCA Student at VIT, Vellore.
-- 💻 Interested in Full-Stack Development and Backend Engineering.
-- ☕ Solving Data Structures and Algorithms problems using Java.
-- 🏗️ Exploring System Design, REST APIs, and Database Management.
-- 🤖 Interested in AI, Machine Learning, and Computer Vision.
-- 🚀 Focused on building impactful projects and growing as a software engineer.
+```java
+public class Meghna {
+    String education   = "MCA @ VIT Vellore";
+    String focus       = "Backend Engineering · Full-Stack Development";
+    String[] exploring = { "System Design", "Event-driven architecture", "Applied ML / Computer Vision" };
+    String dailyHabit  = "DSA in Java";
+    boolean openTo     = true; // internships & SDE roles
+}
+```
 
 ---
 
-## Technical Expertise
+## 🛠️ Tech Stack
+
+| Area | Tools |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=java,python,js&theme=dark" height="40" alt="Java, Python, JavaScript" /> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=spring,nodejs,express&theme=dark" height="40" alt="Spring Boot, Node.js, Express" /> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css&theme=dark" height="40" alt="React, Vite, Tailwind, HTML, CSS" /> |
+| **Databases** | <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" height="40" alt="PostgreSQL, MySQL, MongoDB, Redis" /> |
+| **DevOps & Tools** | <img src="https://skillicons.dev/icons?i=docker,git,github,linux,azure,postman,vscode&theme=dark" height="40" alt="Docker, Git, GitHub, Linux, Azure, Postman, VS Code" /> |
+
+---
+
+## 📌 Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Programming Languages
+### 📝 CareerScript
+**Full-stack resume builder**
 
-<p>
-<img src="https://skillicons.dev/icons?i=java,python,js&theme=dark" alt="Programming languages" />
-</p>
-
-### Frontend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,vite,html,css,tailwind&theme=dark" alt="Frontend technologies" />
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-### Backend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring&theme=dark" alt="Backend technologies" />
-</p>
-
-### Databases
-
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,redis&theme=dark" alt="Database technologies" />
-</p>
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-### Tools & Platforms
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,docker,postman,azure,linux,vscode&theme=dark" alt="Developer tools" />
-</p>
-
-</td>
-</tr>
-</table>
-
----
-
-## Selected Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>01. CareerScript</h3>
-
-**Full-Stack Resume Builder**
-
-A web-based application designed to simplify resume creation with customizable templates and an interactive editing experience.
-
-**Technologies**
+Build a resume from customizable templates with a live, interactive editor. JWT-based auth and Redis caching on an Express + MongoDB backend.
 
 `React` `Node.js` `Express` `MongoDB` `Redis` `JWT`
 
-[↗ View Source Code](https://github.com/Mmeghna10/CareerScript)
+[![Live](https://img.shields.io/badge/Live%20Demo-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://career-script.vercel.app)
+[![Code](https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/Mmeghna10/CareerScript)
 
 </td>
 <td width="50%" valign="top">
 
-<h3>02. Neopark</h3>
+### 🎓 PlacementHub
+**Campus placement management system**
 
-**Parking Management System**
+A centralized platform for students, recruiters and placement cells, built on a layered Spring Boot backend with role-based access via Spring Security.
 
-An application exploring parking management workflows, backend development, and real-time communication.
+`Java` `Spring Boot` `Spring Security` `MySQL` `React`
 
-**Technologies**
-
-`JavaScript` `Node.js` `MongoDB` `Redis` `Docker`
-
-[↗ View Source Code](https://github.com/Mmeghna10/Neopark)
+[![Code](https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/Mmeghna10/placementhub)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<h3>03. TravelByChance</h3>
+### 🅿️ Neopark
+**Parking management system**
 
-**Travel & Accommodation Platform**
+Models real parking workflows — slots, bookings and status — with real-time updates, Redis for fast state, and a Dockerized setup.
 
-A travel-oriented application focused on accommodation discovery, listing management, bookings, and user interactions.
+`JavaScript` `Node.js` `MongoDB` `Redis` `Docker`
 
-**Technologies**
-
-`JavaScript` `Node.js` `Express` `MongoDB`
-
-[↗ View Source Code](https://github.com/Mmeghna10/travel-by-chance)
+[![Code](https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/Mmeghna10/Neopark)
 
 </td>
 <td width="50%" valign="top">
 
-<h3>04. PlacementHub</h3>
+### ✈️ TravelByChance
+**Travel & accommodation platform**
 
-**Placement Management System**
+Discover stays, manage listings and handle bookings and reviews, with a REST backend on Express and MongoDB.
 
-A project exploring a centralized placement platform with modern backend architecture and database integration.
+`JavaScript` `Node.js` `Express` `MongoDB`
 
-**Technologies**
-
-`Java` `Spring Boot` `Spring Security` `MySQL` `React`
-
-[↗ View Source Code](https://github.com/Mmeghna10/placementhub)
+[![Code](https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/Mmeghna10/travel-by-chance)
 
 </td>
 </tr>
 </table>
 
-### Other Work
-
-**Meeting Summarizer** — Exploring AI-powered workflows for organizing and summarizing meeting information.
-
-[Explore Repository](https://github.com/Mmeghna10/meeting-summarizer)
+**Also:** [Meeting Summarizer](https://github.com/Mmeghna10/meeting-summarizer) — an AI-assisted workflow that turns meeting notes into organized summaries.
 
 ---
 
-## Research & Technical Interests
+## 🧠 Problem Solving & Interests
 
-- Artificial Intelligence and Machine Learning
-- Computer Vision
-- Federated Learning and Differential Privacy
-- Backend Engineering and System Design
-- Scalable and Secure Web Applications
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**DSA in Java** — practising daily across
+
+- Arrays & Strings · Sliding Window · Hashing
+- Linked Lists · Two Pointers
+- Trees & Graphs · DFS / BFS
+- Dynamic Programming
+
+</td>
+<td width="50%" valign="top">
+
+**Areas I'm exploring**
+
+- System Design & scalable backends
+- Event-driven architecture
+- AI / ML and Computer Vision
+- Federated Learning & Differential Privacy
+
+</td>
+</tr>
+</table>
+
+<!-- Optional: add your LeetCode card (replace YOUR_LEETCODE_USERNAME)
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=JetBrains%20Mono&ext=heatmap" alt="LeetCode stats" />
+</p>
+-->
 
 ---
 
-## Problem Solving
-
-Consistently working on improving algorithmic thinking and problem-solving skills through Data Structures and Algorithms.
-
-| Topics | Focus |
-|---|---|
-| Arrays & Strings | Prefix Sum, Sliding Window, Hashing |
-| Linked Lists | Traversal, Reversal, Two Pointers |
-| Trees | DFS, BFS, Tree Recursion |
-| Graphs | Traversal and Graph Algorithms |
-| Dynamic Programming | Optimization and State Transitions |
-
-**Primary Language:** Java
-
----
-
-
-## GitHub Analytics
+## 📊 GitHub Stats
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Mmeghna10&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"
-    height="170"
-    alt="GitHub Stats"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mmeghna10&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"
-    height="170"
-    alt="Top Languages"
-  />
-</p>
-
-
-## Connect With Me
-
-<p>
-<a href="https://github.com/Mmeghna10">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://www.linkedin.com/in/meghnarajput10/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-</p>
-
----
-
-<p align="center">
-  <sub>Continuous Learning · Thoughtful Engineering · Real-World Impact</sub>
+  <img src="assets/stats.svg" height="180" alt="GitHub stats" />
+  <img src="assets/languages.svg" height="180" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=0:0B1220,50:2563EB,100:0B1220&section=footer" width="100%" alt="" />
+  <img src="assets/contributions.svg" width="100%" alt="Contribution activity" />
+</p>
+
+<p align="center"><sub>Cards are generated by this repo's own GitHub Action and refresh daily.</sub></p>
+
+---
+
+## 🤝 Let's Connect
+
+I'm open to **internships and entry-level SDE / backend roles**. If you're building something interesting, I'd love to hear about it.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/meghnarajput10/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rajputmeghna9@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Mmeghna10"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="" />
 </p>

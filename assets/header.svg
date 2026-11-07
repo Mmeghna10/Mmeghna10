@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Meghna Rajput – Backend and Full-Stack Developer, MCA at VIT Vellore">
+  <title>Meghna Rajput – Backend &amp; Full-Stack Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.6" stop-color="#0F1B3D"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="avatarBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#BFDBFE"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#60A5FA" opacity="0.12"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="18"/></clipPath>
+    <clipPath id="avatarClip"><circle cx="120" cy="120" r="112"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+      .in { opacity: 0; animation: in .8s ease-out forwards; }
+      @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      .spin { transform-origin: 210px 160px; animation: spin 18s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 50% { opacity: .45; } }
+      .caret { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .in, .spin, .pulse, .caret { animation: none; opacity: 1; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <circle cx="210" cy="160" r="220" fill="url(#glow)"/>
+    <circle cx="1120" cy="40" r="180" fill="url(#glow)" opacity="0.6"/>
+    <!-- faint code motif on the right -->
+    <text x="1170" y="292" text-anchor="end" class="mono" font-size="15" fill="#60A5FA" opacity="0.18">&lt;/&gt; backend · data · systems</text>
+  </g>
+
+  <!-- ===== Avatar ===== -->
+  <circle class="spin" cx="210" cy="160" r="128" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <circle cx="210" cy="160" r="117" fill="none" stroke="#93C5FD" stroke-opacity="0.35" stroke-width="2"/>
+  <g transform="translate(90,40)">
+    <g clip-path="url(#avatarClip)">
+      <circle cx="120" cy="120" r="112" fill="url(#avatarBg)"/>
+      <g transform="translate(120 140) scale(1.12) translate(-120 -140)">
+      <!-- hair, back -->
+      <path d="M60 128 C54 70 86 48 120 48 C154 48 186 70 180 128 C182 170 190 205 196 240 L44 240 C50 205 58 170 60 128 Z" fill="#1A1210"/>
+      <!-- blazer -->
+      <path d="M26 240 C30 202 60 184 96 178 L144 178 C180 184 210 202 214 240 Z" fill="#1E293B"/>
+      <!-- top -->
+      <path d="M100 178 L120 214 L140 178 Z" fill="#E2E8F0"/>
+      <!-- lapels -->
+      <path d="M97 178 L120 226 L104 240 L76 196 Z" fill="#0F172A"/>
+      <path d="M143 178 L120 226 L136 240 L164 196 Z" fill="#0F172A"/>
+      <!-- neck -->
+      <path d="M106 146 L134 146 L137 182 C128 192 112 192 103 182 Z" fill="#B87650"/>
+      <!-- ears + earrings -->
+      <ellipse cx="86" cy="116" rx="6" ry="10" fill="#C98861"/>
+      <ellipse cx="154" cy="116" rx="6" ry="10" fill="#C98861"/>
+      <circle cx="86" cy="131" r="3" fill="#93C5FD"/>
+      <circle cx="154" cy="131" r="3" fill="#93C5FD"/>
+      <!-- face -->
+      <ellipse cx="120" cy="112" rx="34" ry="42" fill="#D69B73"/>
+      <ellipse cx="104" cy="128" rx="7" ry="4" fill="#F472B6" opacity="0.18"/>
+      <ellipse cx="136" cy="128" rx="7" ry="4" fill="#F472B6" opacity="0.18"/>
+      <!-- hair, front (side-swept) -->
+      <path d="M84 112 C78 72 98 56 122 56 C148 56 164 74 157 114 C152 94 140 82 122 78 C110 92 98 102 84 112 Z" fill="#1A1210"/>
+      <path d="M87 100 C82 130 84 160 80 196 L68 192 C72 150 70 118 87 100 Z" fill="#1A1210"/>
+      <path d="M153 100 C158 130 156 160 160 196 L172 192 C168 150 170 118 153 100 Z" fill="#1A1210"/>
+      <path d="M122 60 C138 62 150 70 154 86" fill="none" stroke="#3B2A24" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+      <!-- brows -->
+      <path d="M101 99 Q109 94 117 98" fill="none" stroke="#1A1210" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M123 98 Q131 94 139 99" fill="none" stroke="#1A1210" stroke-width="2.6" stroke-linecap="round"/>
+      <!-- eyes -->
+      <ellipse cx="110" cy="111" rx="3.6" ry="3" fill="#1A1210"/>
+      <ellipse cx="130" cy="111" rx="3.6" ry="3" fill="#1A1210"/>
+      <circle cx="111.2" cy="110" r="1" fill="#FFFFFF"/>
+      <circle cx="131.2" cy="110" r="1" fill="#FFFFFF"/>
+      <!-- glasses -->
+      <rect x="100.5" y="103.5" width="19" height="15" rx="5.5" fill="#FFFFFF" fill-opacity="0.07" stroke="#0F172A" stroke-width="1.8"/>
+      <rect x="120.5" y="103.5" width="19" height="15" rx="5.5" fill="#FFFFFF" fill-opacity="0.07" stroke="#0F172A" stroke-width="1.8"/>
+      <path d="M119.5 109 L120.5 109" stroke="#0F172A" stroke-width="1.8"/>
+      <path d="M100.5 108 L91 106" stroke="#0F172A" stroke-width="1.6"/>
+      <path d="M139.5 108 L149 106" stroke="#0F172A" stroke-width="1.6"/>
+      <!-- nose + smile -->
+      <path d="M120 116 Q116.5 125 121 127" fill="none" stroke="#B0694A" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M111 136 Q120 143 129 136" fill="#9F3F3A" stroke="#9F3F3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+  <!-- status dot -->
+  <circle cx="290" cy="242" r="14" fill="#0B1220"/>
+  <circle class="pulse" cx="290" cy="242" r="9" fill="#22C55E"/>
+
+  <!-- ===== Text ===== -->
+  <g class="in" style="animation-delay:.1s">
+    <text x="380" y="92" class="mono" font-size="18" fill="#60A5FA">&gt; hello, world. I'm</text>
+  </g>
+  <g class="in" style="animation-delay:.3s">
+    <text x="376" y="160" font-size="66" font-weight="700" fill="url(#nameGrad)" letter-spacing="-1">Meghna Rajput</text>
+  </g>
+  <g class="in" style="animation-delay:.5s">
+    <text x="380" y="204" font-size="27" font-weight="600" fill="#93C5FD">Backend &amp; Full-Stack Developer<tspan class="caret" fill="#60A5FA">_</tspan></text>
+  </g>
+  <g class="in" style="animation-delay:.7s">
+    <text x="380" y="240" font-size="18" fill="#94A3B8">MCA @ VIT Vellore  ·  Java  ·  Spring Boot  ·  Node.js  ·  React  ·  PostgreSQL</text>
+  </g>
+  <g class="in" style="animation-delay:.9s">
+    <rect x="380" y="260" width="250" height="32" rx="16" fill="#22C55E" fill-opacity="0.12" stroke="#22C55E" stroke-opacity="0.5"/>
+    <circle cx="400" cy="276" r="5" fill="#22C55E"/>
+    <text x="414" y="282" font-size="15" font-weight="600" fill="#86EFAC">Open to SDE internships</text>
+  </g>
+</svg>
